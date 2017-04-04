@@ -195,9 +195,10 @@ header .toggle-menu{
 }
 .splash .container{
     position: relative;
-    top: 55%;
-    transform: translateY(-50%);
+    /*top: 48%;*/
+    /*transform: translateY(-50%);*/
     z-index: 5;
+    margin-top:40px;
 }
 .splash h2{
     margin-bottom: 40px;
@@ -535,7 +536,7 @@ footer .social a:hover{
     header nav{
         float: none;
         position: fixed;
-        top: 56px;
+        top: 22%;
         left: -300px;
         bottom: 0;
         width: 100%;
