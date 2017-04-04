@@ -134,7 +134,8 @@ header .logo{
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    width: 70%;
+    width: 80%;
+    clear: both;
 }
 header .logo .fa{
     font-size: 16px;
