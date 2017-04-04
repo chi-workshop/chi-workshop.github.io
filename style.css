@@ -146,7 +146,6 @@ header .logo .fa{
 
 header nav{
     float: right;
-    position: static;
 }
 header nav ul{
     padding: 0;
