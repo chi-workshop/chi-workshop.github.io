@@ -526,6 +526,10 @@ footer .social a:hover{
 }
 
 @media (max-width: 600px){
+	.splash > div > ul{
+		text-align: left;
+	}
+	
     section{
         padding: 40px 10px;
     }
