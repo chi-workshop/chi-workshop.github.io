@@ -6,14 +6,14 @@
   100% { transform: scale(1); }
 }
 
-@keyframes spin {
+/*@keyframes spin {
   0%   { transform: rotate(30deg); }
   100% { transform: rotate(210deg); }
 }
 @keyframes spin2 {
   0%   { transform: rotate(150deg); }
   100% { transform: rotate(330deg); }
-}
+}*/
 
 /* End Animations */
 
@@ -128,7 +128,7 @@ header .logo{
     float: left;
     font-family: 'Open Sans', sans-serif;
     padding: 13px 0;
-    color: #fbc93d;
+    color: #fff;
     font-weight: 400;
     font-size: 22px;
     line-height: 30px;
@@ -176,7 +176,7 @@ header .toggle-menu{
     display: block;
     position: absolute;
     top: -40px; right: -40px; bottom: -40px; left: -40px;
-    background: rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.1);
     transform: rotate(30deg);
     animation: spin 60s infinite linear;
 }
@@ -224,54 +224,54 @@ header .toggle-menu{
     margin-bottom: 0;
 }
 
-.feature.greybg{
+.idates.greybg{
     background: #f6f6f6;
 }
-.feature{
+.idates{
     position: relative;
     overflow: hidden;
 }
-.feature img{
+.idates img{
     position: absolute;
     top: 100px;
     right: 55%;
 }
-.feature:nth-of-type(even) img{
+.idates:nth-of-type(even) img{
     right: auto;
     left: 55%;
 }
-.feature > div > div{
+.idates > div > div{
     width: 50%;
     float: right;
 }
-.feature > div > div > p{
+.idates > div > div > p{
     margin-bottom: 40px;
 }
-.feature:nth-of-type(even) > div > div{
+.idates:nth-of-type(even) > div > div{
     float: left;
 }
-.feature ul{
+.idates ul{
     margin: 0;
     padding: 0;
 }
-.feature ul li{
+.idates ul li{
     display: block;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
-.feature ul li:last-child{
+.idates ul li:last-child{
     margin-bottom: 0;
     padding-bottom: 0;  
     border-bottom: 0;
 }
-.feature ul li h3{
+.idates ul li h3{
     margin: 0 0 5px 0;
 }
-.feature ul li p:last-child{
+.idates ul li p:last-child{
     margin: 0;
 }
-.feature ul li .fa{
+.idates ul li .fa{
     float: left;
     font-size: 30px;
     background: #fbc93d;
@@ -285,7 +285,7 @@ header .toggle-menu{
     margin-right: 20px;
     margin-top: 7px;
 }
-.feature ul li p{
+.idates ul li p{
     overflow: hidden;
 }
 
@@ -475,13 +475,13 @@ footer .social a:hover{
     .organization > div > div{
         padding: 0 20px;
     }
-    .feature img{
+    .idates img{
         right: 65%;
     }
-    .feature:nth-of-type(even) img{
+    .idates:nth-of-type(even) img{
         left: 65%;
     }
-    .feature > div > div{
+    .idates > div > div{
         width: 60%;
     }
     header nav ul li a{
@@ -521,10 +521,10 @@ footer .social a:hover{
     .organization p{
         overflow: hidden;
     }
-    .feature img{
+    .idates img{
         display: none;
     }
-    .feature > div > div{
+    .idates > div > div{
         width: 100%;
         float: none;
     }
