@@ -171,10 +171,13 @@ header .toggle-menu{
 
 .splash{
     background: #fbc93d;
-    height: 100vh;
+    /*height: 100vh;*/
     overflow: hidden;
     position: relative;
+    padding-bottom:20px;
 }
+
+/*
 .splash:after{
     content: "";
     display: block;
@@ -192,7 +195,8 @@ header .toggle-menu{
     background: rgba(255,255,255,0.08);
     transform: rotate(150deg);
     animation: spin2 50s infinite linear;
-}
+}*/
+
 .splash .container{
     position: relative;
     /*top: 48%;*/
