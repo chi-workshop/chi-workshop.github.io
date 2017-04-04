@@ -536,7 +536,7 @@ footer .social a:hover{
     header nav{
         float: none;
         position: fixed;
-        top: 22%;
+        /*top: 56px;*/
         left: -300px;
         bottom: 0;
         width: 100%;
