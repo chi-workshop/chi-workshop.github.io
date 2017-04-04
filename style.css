@@ -28,7 +28,7 @@ body, input, textarea{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: #222;
+    color: #111;
     font-weight: 300;
 }
 input:focus, textarea:focus{
