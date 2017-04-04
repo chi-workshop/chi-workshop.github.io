@@ -207,6 +207,9 @@ header .toggle-menu{
     width: 25%;
     padding: 0 40px 0 40px;
 }
+.overview > div > div > h2{
+	font-size: 20px;
+}
 .overview .fa{
     display: inline-block;
     font-size: 50px;
