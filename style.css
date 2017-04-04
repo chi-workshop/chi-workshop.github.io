@@ -320,13 +320,13 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
-.contact{
+.venue{
     background: #fbc93d;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
-.contact:after{
+.venue:after{
     content: "";
     display: block;
     position: absolute;
@@ -334,27 +334,27 @@ header .toggle-menu{
     background: rgba(255,255,255,0.1);
     transform: rotate(30deg);
 }
-.contact .input{
+.venue .input{
     width: 47%;
     float: left;
 }
-.contact .input:nth-of-type(odd){
+.venue .input:nth-of-type(odd){
     margin-right: 6%;
 }
-.contact .message{
+.venue .message{
     display: block;
     clear: both;
     float: none;
     padding-top: 10px;
 }
-.contact .input input{
+.venue .input input{
     display: block;
     width: 100%;
     background: rgba(255,255,255,0.3);
     border: 0;
     padding: 10px 15px;
 }
-.contact .message textarea{
+.venue .message textarea{
     display: block;
     width: 100%;
     height: 200px;
@@ -363,38 +363,38 @@ header .toggle-menu{
     padding: 10px 15px;
     resize: vertical;
 }
-.contact label{
+.venue label{
     position: relative;
     z-index: 10;
 }
-.contact label span{
+.venue label span{
     display: block;
     text-align: left;
     font-size: 14px;
 }
-.contact label span .fa{
+.venue label span .fa{
     margin-right: 7px;
 }
-.contact .submit{
+.venue .submit{
     display: block;
     text-align: center;
     padding-top: 40px;
 }
-.contact h2{
+.venue h2{
     margin-bottom: 40px;
 }
 
-.pricing{
+.program{
     text-align: center;
 }
-.pricing > div > div{
+.program > div > div{
     float: left;
     width: 33%;
     margin-top: 60px;
     background: #f6f6f6;
     padding: 40px;
 }
-.pricing > div > div h3{
+.program > div > div h3{
     background: #555;
     color: #fff;
     display: block;
@@ -402,37 +402,51 @@ header .toggle-menu{
     padding: 30px;
     position: relative;
 }
-.pricing > div > div h3 span{
+.program > div > div h3 span{
     display: block;
 }
-.pricing > div > div h3 span .fa{
+.program > div > div h3 span .fa{
     margin: 0 1px;
 }
-.pricing > div > div .price{
+.program > div > div .price{
     font-size: 40px;
 }
-.pricing > div > div:nth-of-type(2){
-    width: calc(34% + 20px);
+.program > div > div:nth-of-type(1){
+	float:left; 
+    width: calc(48% + 20px);
     margin: 40px -10px 0 -10px;
     box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.3);
     position: relative;
     z-index: 50;
 }
-.pricing > div > div:nth-of-type(2) h3{
+.program > div > div:nth-of-type(1) h3{
     background: #fbc93d;
     color: #555;
     display: block;
 }
-.pricing ul{
+.program > div > div:nth-of-type(2){
+	float:right; 
+    width: calc(48% + 20px);
+    margin: 40px -10px 0 -10px;
+    box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 50;
+}
+.program > div > div:nth-of-type(2) h3{
+    background: #fbc93d;
+    color: #555;
+    display: block;
+}
+.program ul{
     padding: 0;
     margin: 27px 0;
 }
-.pricing ul li{
+.program ul li{
     display: block;
     line-height: 40px;
     border-bottom: 1px solid #eee;
 }
-.pricing ul li:last-child{
+.program ul li:last-child{
     border-bottom: 0;
 }
 
@@ -496,17 +510,17 @@ footer .social a:hover{
     header nav ul li a{
         padding: 15px;
     }
-    .pricing > div > div{
+    .program > div > div{
         width: 100% !important;
         float: none;
         margin: 0 0 20px 0 !important;
         box-shadow: none !important;
     }
-    .pricing > div > div h3{
+    .program > div > div h3{
         background: #555 !important;
         color: #fff !important;
     }
-    .pricing h2{
+    .program h2{
         margin-bottom: 40px;
     }
 }
@@ -581,18 +595,18 @@ footer .social a:hover{
         padding-top: 0;
     }
 
-    .contact .input{
+    .venue .input{
         display: block;
         width: 100%;
         float: none;
     }
-    .contact .input:nth-of-type(odd){
+    .venue .input:nth-of-type(odd){
         margin-right: 0;
     }
-    .contact label{
+    .venue label{
         padding-top: 10px;
     }
-    .contact label:first-of-type{
+    .venue label:first-of-type{
         padding-top: 0;
     }
 }
