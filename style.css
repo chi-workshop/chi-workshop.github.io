@@ -123,6 +123,7 @@ header{
     top: 0; left: 0;
     width: 100%;
     z-index: 200;
+    clear:both;
 }
 header .logo{
     float: left;
@@ -133,6 +134,7 @@ header .logo{
     font-size: 22px;
     line-height: 30px;
     margin: 0;
+    width: 80%;
 }
 header .logo .fa{
     font-size: 16px;
@@ -140,6 +142,7 @@ header .logo .fa{
     top: -1px;
     margin-right: 7px;
 }
+
 header nav{
     float: right;
 }
@@ -289,13 +292,13 @@ header .toggle-menu{
     overflow: hidden;
 }
 
-.cta{
+.papers{
     background: #fbc93d;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
-.cta:after{
+.papers:after{
     content: "";
     display: block;
     position: absolute;
@@ -303,11 +306,11 @@ header .toggle-menu{
     background: rgba(255,255,255,0.1);
     transform: rotate(30deg);
 }
-.cta .container{
+.papers .container{
     position: relative;
     z-index: 10;
 }
-.cta h2{
+.papers h2{
     margin-bottom: 40px;
 }
 
