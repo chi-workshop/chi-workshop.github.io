@@ -533,10 +533,12 @@ footer .social a:hover{
         width: 100%;
         float: none;
     }
+    header .container nav{
+    	clear:both;
+    }
     header nav{
         float: none;
         position: fixed;
-        /*top: 56px;*/
         left: -300px;
         bottom: 0;
         width: 100%;
