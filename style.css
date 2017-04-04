@@ -134,7 +134,7 @@ header .logo{
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    width: 80%;
+    width: 90%;
     clear: both;
 }
 header .logo .fa{
@@ -146,6 +146,7 @@ header .logo .fa{
 
 header nav{
     float: right;
+    position: static;
 }
 header nav ul{
     padding: 0;
