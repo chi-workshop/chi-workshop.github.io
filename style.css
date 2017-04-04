@@ -174,7 +174,8 @@ header .toggle-menu{
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
-    padding-bottom:1%;
+    margin-top: 45px;
+    /*padding-bottom:1%;*/
 
 }
 
@@ -202,7 +203,7 @@ header .toggle-menu{
     /*top: 48%;*/
     /*transform: translateY(-50%);*/
     z-index: 5;
-    margin-top:40px;
+    /*margin-top:40px;*/
 }
 .splash h2{
     margin-bottom: 40px;
