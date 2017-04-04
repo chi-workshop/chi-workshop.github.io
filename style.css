@@ -199,18 +199,18 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
-.overview{
+.organization{
     text-align: center;
 }
-.overview > div > div{
+.organization > div > div{
     float: left;
     width: 25%;
     padding: 0 40px 0 40px;
 }
-.overview > div > div > h2{
+.organization > div > div > h2{
 	font-size: 20px;
 }
-.overview .fa{
+.organization .fa{
     display: inline-block;
     font-size: 50px;
     width: 100px;
@@ -220,7 +220,7 @@ header .toggle-menu{
     margin-bottom: 20px;
     padding-top: 25px;
 }
-.overview p{
+.organization p{
     margin-bottom: 0;
 }
 
@@ -472,7 +472,7 @@ footer .social a:hover{
         top: 0;
         transform: none;
     }
-    .overview > div > div{
+    .organization > div > div{
         padding: 0 20px;
     }
     .feature img{
@@ -509,16 +509,16 @@ footer .social a:hover{
     .splash{
         padding: 100px 10px 40px 10px;
     }
-    .overview > div > div{
+    .organization > div > div{
         float: none;
         width: 100%;
         margin-bottom: 40px;
         padding: 0;
     }
-    .overview > div > div:last-child{
+    .organization > div > div:last-child{
         margin-bottom: 0;
     }
-    .overview p{
+    .organization p{
         overflow: hidden;
     }
     .feature img{
