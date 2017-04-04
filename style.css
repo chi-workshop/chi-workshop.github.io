@@ -28,7 +28,7 @@ body, input, textarea{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: #555;
+    color: #222;
     font-weight: 300;
 }
 input:focus, textarea:focus{
@@ -170,14 +170,14 @@ header .toggle-menu{
 }
 
 .splash{
-    background: #fbc93d;
+    background: #0096b5;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
     padding-bottom:1%;
+
 }
 
-/*
 .splash:after{
     content: "";
     display: block;
@@ -195,7 +195,7 @@ header .toggle-menu{
     background: rgba(255,255,255,0.08);
     transform: rotate(150deg);
     animation: spin2 50s infinite linear;
-}*/
+}
 
 .splash .container{
     position: relative;
@@ -299,7 +299,7 @@ header .toggle-menu{
 }
 
 .papers{
-    background: #fbc93d;
+    background: #0096b5;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -321,7 +321,7 @@ header .toggle-menu{
 }
 
 .venue{
-    background: #fbc93d;
+    background: #0096b5;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -413,7 +413,7 @@ header .toggle-menu{
 }
 .program > div > div:nth-of-type(1){
 	float:left; 
-    width: calc(48% + 20px);
+    width: calc(47% + 20px);
     margin: 40px -10px 0 -10px;
     box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.3);
     position: relative;
@@ -426,7 +426,7 @@ header .toggle-menu{
 }
 .program > div > div:nth-of-type(2){
 	float:right; 
-    width: calc(48% + 20px);
+    width: calc(47% + 20px);
     margin: 40px -10px 0 -10px;
     box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.3);
     position: relative;
