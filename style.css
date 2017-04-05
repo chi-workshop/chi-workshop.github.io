@@ -28,7 +28,7 @@ body, input, textarea{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: #111;
+    color: #000;
     font-weight: 300;
 }
 input:focus, textarea:focus{
@@ -171,7 +171,7 @@ header .toggle-menu{
 }
 
 .splash{
-    background: #0096b5;
+    background: #00b2d6;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
@@ -285,7 +285,7 @@ header .toggle-menu{
 .idates ul li .fa{
     float: left;
     font-size: 30px;
-    background: #fbc93d;
+    background: #00b2d6;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -301,7 +301,7 @@ header .toggle-menu{
 }
 
 .papers{
-    background: #0096b5;
+    background: #00b2d6;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -323,7 +323,7 @@ header .toggle-menu{
 }
 
 .venue{
-    background: #0096b5;
+    background: #00b2d6;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -436,7 +436,7 @@ header .toggle-menu{
 }
 .program > div > div:nth-of-type(2) h3{
     background: #fbc93d;
-    color: #555;
+    color: #000;
     display: block;
 }
 .program ul{
