@@ -396,6 +396,20 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
+.map-container {
+	width: 100%;
+	/*margin: 50px 0 3000px;*/
+}
+.map-container iframe{
+	width: 100%;
+	display: block;
+	pointer-events: none;
+	position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+
 .program{
     text-align: center;
 }
