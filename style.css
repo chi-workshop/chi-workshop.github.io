@@ -171,24 +171,31 @@ header .toggle-menu{
 }
 
 .splash{
-    background: #00b2d6;
+    background: #028ce8;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
     margin-top: 45px;
     /*padding-bottom:1%;*/
-
+    background-image:url("images/header2.jpg");
+	background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
-.splash:after{
+/*.splash:after{
     content: "";
     display: block;
     position: absolute;
     top: -60px; right: -60px; bottom: -60px; left: -60px;
     background: rgba(255,255,255,0.1);
     transform: rotate(30deg);
-    /*animation: spin 60s infinite linear;*/
-}
+    animation: spin 60s infinite linear;
+}*/
 /*.splash:before{
     content: "";
     display: block;
@@ -204,8 +211,11 @@ header .toggle-menu{
     /*top: 48%;*/
     /*transform: translateY(-50%);*/
     z-index: 5;
+	background: rgba(255,255,255,0.8);
+	padding: 5px 5px;
     /*margin-top:40px;*/
 }
+
 .splash h2{
     margin-bottom: 40px;
 }
@@ -301,7 +311,7 @@ header .toggle-menu{
 }
 
 .papers{
-    background: #00b2d6;
+    background: #028ce8;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -322,13 +332,13 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
-.venue{
-    background: #00b2d6;
+.program{
+    background: #028ce8;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
-.venue:after{
+.program:after{
     content: "";
     display: block;
     position: absolute;
