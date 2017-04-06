@@ -174,7 +174,7 @@ header .toggle-menu{
 
 .splash{
     /*background: #028ce8;*/
-    background: #f1f1f1;
+    background: #e9e9e9;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
@@ -252,7 +252,7 @@ header .toggle-menu{
 }
 
 .idates{
-	background: #f1f1f1;
+	background: #e9e9e9;
     position: relative;
     overflow: hidden;
 }
@@ -406,7 +406,7 @@ header .toggle-menu{
 
 
 .program{
-	background: #f1f1f1;
+	background: #e9e9e9;
     /*background: #028ce8;*/
     position: relative;
     overflow: hidden;
