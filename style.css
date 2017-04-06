@@ -95,8 +95,10 @@ section{
     display: inline-block;
     padding: 15px 30px;
     border-radius: 50px;
-    color: #fff;
-    border: 1px solid #fff;
+    /*color: #fff;
+    border: 1px solid #fff;*/
+    color: #000;
+    border: 1px solid #000;
     transition: 200ms;
     background: transparent;
     cursor: pointer;
@@ -237,7 +239,7 @@ header .toggle-menu{
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background: #f6f6f6;
+    background: #f1f1f1;
     margin-bottom: 20px;
     padding-top: 25px;
 }
@@ -245,10 +247,8 @@ header .toggle-menu{
     margin-bottom: 0;
 }
 
-.idates.greybg{
-    background: #f6f6f6;
-}
 .idates{
+	background: #f1f1f1;
     position: relative;
     overflow: hidden;
 }
@@ -311,7 +311,7 @@ header .toggle-menu{
 }
 
 .papers{
-    background: #028ce8;
+    /*background: #028ce8;*/
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -332,20 +332,6 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
-.program{
-    background: #028ce8;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-.program:after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: -60px; right: -60px; bottom: -60px; left: -60px;
-    background: rgba(255,255,255,0.1);
-    transform: rotate(30deg);
-}
 .venue .input{
     width: 47%;
     float: left;
@@ -396,6 +382,10 @@ header .toggle-menu{
     margin-bottom: 40px;
 }
 
+.venue{
+	/*background: #f1f1f1;*/
+}
+
 .map-container {
 	width: 100%;
 	/*margin: 50px 0 3000px;*/
@@ -410,9 +400,23 @@ header .toggle-menu{
 	pointer-events: auto;
 }
 
+
 .program{
+	background: #f1f1f1;
+    /*background: #028ce8;*/
+    position: relative;
+    overflow: hidden;
     text-align: center;
 }
+/*.program:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -60px; right: -60px; bottom: -60px; left: -60px;
+    background: rgba(255,255,255,0.1);
+    transform: rotate(30deg);
+}*/
+
 .program > div > div{
     float: left;
     width: 33%;
