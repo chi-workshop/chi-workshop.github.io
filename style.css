@@ -492,6 +492,7 @@ footer{
 footer .copyright{
     float: left;
     padding: 15px 0;
+    font-size: 7pt;
 }
 footer .copyright p{
     margin: 0;
