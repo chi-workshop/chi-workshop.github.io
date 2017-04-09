@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('a[href=#]').click(function(e){
         e.preventDefault();
         $('nav').removeClass('visible');
-        $('html,body').stop().animate({scrollTop: $('.'+$(this).data('scrollto')).offset().top-100 }, 700, 'easeInOutExpo', function(){});
+        $('html,body').stop().animate({scrollTop: $('.'+$(this).data('scrollto')).offset().top-120 }, 700, 'easeInOutExpo', function(){});
     });
 
     $('.toggle-menu').click(function(){
