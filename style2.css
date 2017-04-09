@@ -120,7 +120,9 @@ section{
 }
 
 header{
-    background: #222;
+    background: #000;
+    background-image: url(images/header2.jpg);
+    background-position-y: 250px;
     padding: 0 20px;
     position: fixed;
     top: 0; left: 0;
