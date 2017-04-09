@@ -186,7 +186,6 @@ header .toggle-menu{
 
 .splash{
     /*background: #028ce8;*/
-    background: #e9e9e9;
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
@@ -202,6 +201,10 @@ header .toggle-menu{
     -webkit-background-size: cover;
     background-size: cover;*/
 
+}
+
+.call{
+background: #e9e9e9;
 }
 
 /*.splash:after{
@@ -223,15 +226,15 @@ header .toggle-menu{
     animation: spin2 50s infinite linear;
 }*/
 
-.splash .container{
+.splash .news{
     position: relative;
     /*top: 48%;*/
     /*transform: translateY(-50%);*/
     z-index: 5;
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,0.8);
 	padding: 20px 20px;
-    /*margin-top:40px;*/
-         border-radius: 25px;
+    margin:15px 0;
+         border-radius: 15px;
 }
 
 .splash h2{
