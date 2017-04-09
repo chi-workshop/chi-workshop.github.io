@@ -88,7 +88,7 @@ img{
     clear: both;
 }
 section{
-    padding: 100px 20px;
+    padding: 60px 20px;
 }
 
 .btn{
@@ -120,7 +120,9 @@ section{
 }
 
 header{
-    background: #222;
+    background: #333;
+    /*background-image: url(images/header2.jpg);*/
+    background-position-y: 250px;
     padding: 0 20px;
     position: fixed;
     top: 0; left: 0;
@@ -131,15 +133,24 @@ header{
 header .logo{
     float: left;
     font-family: 'Open Sans', sans-serif;
-    padding: 13px 0;
+    padding: 5px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 26px;
     line-height: 30px;
     margin: 0;
     width: 90%;
     clear: both;
 }
+
+header .logo2{
+	color: #fff; 
+	padding:5px; 
+	clear:both; 
+	margin:0; 
+	font-size:24px;
+}
+
 header .logo .fa{
     font-size: 16px;
     position: relative;
@@ -163,6 +174,7 @@ header nav ul li a{
     padding: 15px 20px;
     color: #fff;
     transition: 200ms;
+    font-weight: 800;
 }
 header nav ul li a:hover, header nav ul li a.active{
     text-decoration: none;
@@ -178,16 +190,18 @@ header .toggle-menu{
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
-    margin-top: 45px;
+    margin-top: 130px;
     /*padding-bottom:1%;*/
-    background-image:url("images/header3.jpg");
-	background-repeat: no-repeat;
+    background-image:url("images/people.png");
+    background-repeat: repeat;
     background-position: 50% 0;
+	/*
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+
 }
 
 /*.splash:after{
@@ -217,6 +231,7 @@ header .toggle-menu{
 	background: rgba(255,255,255,0.9);
 	padding: 20px 20px;
     /*margin-top:40px;*/
+         border-radius: 25px;
 }
 
 .splash h2{
@@ -519,6 +534,14 @@ footer .social a:hover{
     }
     header, footer{
         padding: 0 10px;
+    }
+    header .logo{
+    	font-size:22px;
+    	line-height:30px;
+    }
+    header .logo2{
+	    font-size:20px;
+	    line-height:30px;
     }
     .splash{
         height: auto;
