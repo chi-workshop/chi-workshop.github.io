@@ -88,7 +88,7 @@ img{
     clear: both;
 }
 section{
-    padding: 100px 20px;
+    padding: 50px 20px;
 }
 
 .btn{
@@ -178,7 +178,7 @@ header .toggle-menu{
     /*height: 100vh;*/
     overflow: hidden;
     position: relative;
-    margin-top: 45px;
+    margin-top: 85px;
     /*padding-bottom:1%;*/
     background-image:url("images/people.png");
     background-repeat: repeat;
