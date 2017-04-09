@@ -180,14 +180,15 @@ header .toggle-menu{
     position: relative;
     margin-top: 45px;
     /*padding-bottom:1%;*/
-    background-image:url("images/header3.jpg");
-	background-repeat: no-repeat;
+    background-image:url("images/people.jpg");
+    background-repeat: repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
+    /*background-size: cover;*/
+    border-radius: 25px;
 }
 
 /*.splash:after{
