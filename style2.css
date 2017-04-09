@@ -165,6 +165,7 @@ header nav ul li a{
     padding: 15px 20px;
     color: #fff;
     transition: 200ms;
+    font-weight: 800;
 }
 header nav ul li a:hover, header nav ul li a.active{
     text-decoration: none;
