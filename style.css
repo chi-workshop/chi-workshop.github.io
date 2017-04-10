@@ -121,7 +121,7 @@ section{
 
 header{
     background: #333;
-    background-image: url("images/people_50.png");
+    background-image: url("images/people.png");
     background-position-y: 250px;
     padding: 0 20px;
     position: fixed;
@@ -191,7 +191,7 @@ header .toggle-menu{
     position: relative;
     margin-top: 80px;
     /*padding-bottom:1%;*/
-    background-image:url("images/people_50.png");
+    background-image:url("images/people.png");
     background-repeat: repeat;
     background-position: 50% 0;
 	/*
