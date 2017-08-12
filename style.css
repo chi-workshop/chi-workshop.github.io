@@ -439,6 +439,11 @@ header .toggle-menu{
 
 .invited{
 	float:left;
+	width:25%;
+	padding:15px;	
+}
+.invited2{
+	float:left;
 	width:33%;
 	padding:15px;	
 }
