@@ -522,12 +522,20 @@ font-size:17px;
 
 .program ul{
     padding: 0;
-    margin: 27px 0;
+    font-size:88%
 }
 .program ul li{
     display: block;
-    line-height: 40px;
-    border-bottom: 1px solid #eee;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.program ul li i{
+	font-size: 90%;
+}
+.program ul li b{
+	font-weight: bold;
 }
 .program ul li:last-child{
     border-bottom: 0;
